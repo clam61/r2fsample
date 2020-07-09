@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">R2F-Sample</string>
+    <!-- Strings related to login -->
+    <string name="prompt_header">Rehab2fit</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_login">Sign in</string>
+    <string name="action_login_short">Login</string>
+    <string name="action_register">Register</string>
+
+    <string name="invalid_username">Not a valid username</string>
+    <!-- <string name="invalid_password">Password must be >5 characters</string> -->
+    <string name="login_failed">"That email and password combination is incorrect"</string>
+
+    <!-- Strings related to the main menu -->
+    <string name="menu_header">YOU\'RE IN</string>
+    <string name="menu_full_name">Full name</string>
+    <string name="menu_address">Street address 1</string>
+    <string name="menu_address2">Street address 2 (optional)</string>
+    <string name="menu_city">City</string>
+    <string name="menu_zip">Zip</string>
+    <string name="menu_phone_number">Phone Number</string>
+    <string name="menu_done">Done</string>
+    <string name="action_done_short">Done</string>
+
+    <string-array name="states">
+        <item>Alabama</item>
+        <item>Alaska</item>
+        <item>Arizona</item>
+        <item>Arkansas</item>
+        <item>California</item>
+        <item>Colorado</item>
+        <item>Connecticut</item>
+        <item>Delaware</item>
+        <item>District Of Columbia</item>
+        <item>Florida</item>
+        <item>Georgia</item>
+        <item>Hawaii</item>
+        <item>Idaho</item>
+        <item>Illinois</item>
+        <item>Indiana</item>
+        <item>Iowa</item>
+        <item>Kansas</item>
+        <item>Kentucky</item>
+        <item>Louisiana</item>
+        <item>Maine</item>
+        <item>Maryland</item>
+        <item>Massachusetts</item>
+        <item>Michigan</item>
+        <item>Minnesota</item>
+        <item>Mississippi</item>
+        <item>Missouri</item>
+        <item>Montana</item>
+        <item>Nebraska</item>
+        <item>Nevada</item>
+        <item>New Hampshire</item>
+        <item>New Jersey</item>
+        <item>New Mexico</item>
+        <item>New York</item>
+        <item>North Carolina</item>
+        <item>North Dakota</item>
+        <item>Ohio</item>
+        <item>Oklahoma</item>
+        <item>Oregon</item>
+        <item>Pennsylvania</item>
+        <item>Rhode Island</item>
+        <item>South Carolina</item>
+        <item>South Dakota</item>
+        <item>Tennessee</item>
+        <item>Texas</item>
+        <item>Utah</item>
+        <item>Vermont</item>
+        <item>Virginia</item>
+        <item>Washington</item>
+        <item>West Virginia</item>
+        <item>Wisconsin</item>
+        <item>Wyoming</item>
+    </string-array>
+</resources>
