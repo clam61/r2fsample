@@ -1,2 +1,2 @@
 # r2fsample
-Sample app showing basic functionality
+Sample app showing some basic functionality
