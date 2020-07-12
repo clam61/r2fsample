@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
+import androidx.lifecycle.ViewModelProvider;
 
 import com.example.r2f_sample.R;
 import com.example.r2f_sample.viewmodel.LoginValid;
@@ -36,7 +37,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        loginViewModel = new LoginViewModel();
+        loginViewModel = new ViewModelProvider(this).get(LoginViewModel.class);
 
         final EditText username = findViewById(R.id.username);
         final EditText password = findViewById(R.id.password);

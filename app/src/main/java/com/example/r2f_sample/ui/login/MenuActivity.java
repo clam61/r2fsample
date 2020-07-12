@@ -2,6 +2,7 @@ package com.example.r2f_sample.ui.login;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
+import androidx.lifecycle.ViewModelProvider;
 
 import com.example.r2f_sample.R;
 import com.example.r2f_sample.pojo.User;
@@ -32,7 +33,7 @@ public class MenuActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_menu);
 
-        menuViewModel = new MenuViewModel();
+        menuViewModel = new ViewModelProvider(this).get(MenuViewModel.class);
         menuViewModel.getMenuState().observe(this, new Observer<MenuState>() {
             @Override
             public void onChanged(MenuState menuState) {
